@@ -1,4 +1,4 @@
-from python:3.7-alpine
+from python:3.7
 
 MAINTAINER KaueBonfim <kaueoliveir95@hotmail.com>
 
