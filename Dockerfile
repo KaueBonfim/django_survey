@@ -8,7 +8,7 @@ COPY ./survey_from_indra/ /app/
 
 WORKDIR /app
 
-RUN pip install requeriments.txt
+RUN pip install -r requeriments.txt
 
 RUN python manage.py migrate
 
