@@ -4,7 +4,6 @@ MAINTAINER KaueBonfim <kaueoliveir95@hotmail.com>
 
 RUN mkdir /app
 
-RUN apk add subversion
 
 COPY ./survey_from_indra/ /app/
 
